@@ -11,12 +11,8 @@
   --mild: #8d99bb;
   --whitesmoke: whitesmoke;
   --twitter: #121414;
-  --dribbble: #ff5da0;
-  --success: #1ecab8;
-  --danger: #f1646c;
   --dark-blue: #28365f;
   --dark-gray: #171f33;
-  --yellow: #f3c74d;
 }
 
 /* Reset  */
@@ -228,6 +224,9 @@ section.about .content .left button {
   outline: none;
   cursor: pointer;
 }
+section.about .content .left button a {
+  color: var(--info);
+}
 section.about .content .right p {
   color: var(--ternary);
   font-size: 14px;
@@ -397,7 +396,7 @@ section.contact .wrapper .form__group.textarea__wrapper textarea {
 }
 section.contact .wrapper .form__group > div input:focus,
 section.contact .wrapper .form__group.textarea__wrapper textarea:focus {
-  border-color: var(--danger);
+  border-color: var(--info);
   outline: none;
 }
 section.contact .wrapper .form__group.textarea__wrapper {
